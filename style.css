@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    border: 2px solid black;
+    border-radius: 15px;
+    background-image: url(bg2.jpg);
+}
+
+.Nav #n1 img{
+    height: 60px;
+    width: 50px;
+}
+
+.Nav{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.Nav #btn1 i {
+    font-size: large;
+}
+
+#btn1{
+    /* height: 100px; */
+    width: 270px;
+    margin-right: 71px;
+border: 2px solid black;
+border-radius: 7px;
+}
+#n1{
+   margin-left: 76px;
+   display: flex;
+   align-items: center;
+}
+#n1 a{
+    margin: 20px;
+   text-decoration: none;
+}
+
+.SecondNav{
+
+    width: 96.5%;
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(236, 40, 128);
+}
+
+.SecondNav a{
+    color: rgb(255, 250, 250);
+}
+
+.SecondNav p{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Main{
+    border: 1px solid black;
+    border-radius: 9px;
+    width: 35%;
+    height: 270px;
+    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.Main h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 228%;
+    position: relative;
+    left: 60px;
+}
+
+.Main button{
+    height: 50px;
+    width: 150px;
+    position: relative;
+     left: 100px;
+     background-color: rgb(123, 11, 236);
+     border-radius: 9px;
+     color: white;
+}
+
+.Main p{
+    position: relative;
+    left: 70px;
+}
+
+.Students img{
+height: 265px;
+width: 220px;
+border: 1px solid black;
+border-radius: 8px;
+
+}
+.container2{
+    /* border: 2px solid black; */
+    /* background-color: rgb(194, 232, 243); */
+    margin-top: 65px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Company{
+    text-align: center;
+    /* border: 1px solid black; */
+    margin: 25px;
+}
+
+.Company h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+
+.Company img{
+   padding: 40px;
+   border: 1px solid black;
+   border-radius: 8px;
+}
+
+.Content{
+
+   /* border: 1px solid black; */
+    height: 800px;
+    width: 94%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+li{
+    /* display: block; */
+    font-weight: bolder;
+    list-style: none;
+    width: 45%;
+    border: 0.5px solid black;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 5px;
+    position: relative;
+    left: 10%;
+
+}
+video{
+    height: 70%;
+    width: 34%;
+    position: absolute;
+   left: 55%;
+   top: 170%;
+   border: 2px solid black;
+   border-radius: 9px;
+}
+
+.Footer{
+    /* border: 2px solid black; */
+}
+
+#foot1{
+    text-align: center;
+}
+#foot1 p{
+    font-size: 15px;
+    font-weight: bold;
+    color: chocolate;
+}
+#foot1 h2{
+    color: chocolate;
+    font-size: 50px;
+}
+#foot1 button{
+    height: 50px;
+    width: 150px;
+    border-radius: 8px;
+    background-color: rgb(123, 11, 236);
+    color: white;
+}
+#foot2
+{
+    /* border: 2px solid black; */
+    margin-top: 30px; 
+    display: flex;
+    justify-content: space-around;
+}
+#foot2 img{
+    height: 70px;
+    width: 70px;
+}
+#Anchor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: stretch;
+}
+
+#Anchor h4{
+    /* text-align: center; */
+    font-size: larger;
+}
+#Anchor a{
+    display: block;
+   text-decoration: none;
+}
+
+#Socials i{
+    padding: 5px;
+    font-weight: bold;
+    font-size: larger;
+}
